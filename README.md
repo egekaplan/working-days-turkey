@@ -19,7 +19,7 @@
 </ol>
 
 <h2>Description</h2>
-<p>The script utilizes the <code>workalendar</code> library to calculate the total number of working days for each month in a specified year. It excludes weekends (Saturdays and Sundays) and considers holidays specific to Turkey.</p>
+<p>The script utilizes the <code>workalendar</code> library to calculate the total number of working days for each month in the current year. It excludes weekends (Saturdays and Sundays) and considers holidays specific to Turkey.</p>
 
 <h2>Adjustments</h2>
 <p>To account for discrepancies in the holiday calendar, the script subtracts the 2nd of January as a holiday since it is not observed in Turkey, contrary to the information in the holiday calendar library.</p>

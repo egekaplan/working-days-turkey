@@ -7,7 +7,6 @@
 
 <body>
 
-<h1>Working Days Calculator</h1>
 <p>This Python script calculates the total number of working days for each month in a given year, excluding weekends and holidays in Turkey.</p>
 
 <h2>Prerequisites</h2>

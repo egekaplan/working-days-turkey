@@ -41,7 +41,9 @@ for month in range(1, 13):
     total_working_days += working_days_in_month
     
     month_name = start_date.strftime('%B')
-    print(f"{month_name}: {working_days_in_month}")
+    
+    #print the number of working days for each and every month
+    print(f"{month_name}: {working_days_in_month}") 
 
-# Print the total number of working days for all months
+# Print the total number of working days for current year
 print(f"Total working days: {total_working_days}")

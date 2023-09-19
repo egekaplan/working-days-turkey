@@ -1,32 +1,39 @@
+# Working Days Calculator
 
+This Python script calculates the number of working days (business days) in each month of the current year for Turkey. It takes into account the official holidays in Turkey and excludes weekends (Saturdays and Sundays) from the count. The script uses the `workalendar` library to retrieve the list of holidays for the specified year.
 
-<body>
+## Prerequisites
 
-<h1>Working Days Calculator</h1>
-<p>This Python script calculates the total number of working days for each month in a given year, excluding weekends and holidays in Turkey.</p>
+Before running the script, make sure you have the `workalendar` library installed. You can install it using pip:
 
-<h2>Prerequisites</h2>
-<ul>
-    <li>Python 3.x</li>
-    <li><code>workalendar</code> library (install using <code>pip install workalendar</code>)</li>
-</ul>
+```bash
+pip install workalendar
+```
 
-<h2>Usage</h2>
-<ol>
-    <li>Ensure you have Python 3.x installed on your system.</li>
-    <li>Install the required library by running: <code>pip install workalendar</code></li>
-    <li>Run the script using your preferred method (e.g., <code>python working-days-tr.py</code>).</li>
-</ol>
+## Usage
 
-<h2>Description</h2>
-<p>The script utilizes the <code>workalendar</code> library to calculate the total number of working days for each month in the current year. It excludes weekends (Saturdays and Sundays) and considers holidays specific to Turkey.</p>
+1. Import the required libraries and define the `count_working_days` function, which calculates the working days between two dates, excluding holidays and weekends.
 
-<h2>Adjustments</h2>
-<p>To account for discrepancies in the holiday calendar, the script subtracts the 2nd of January as a holiday since it is not observed in Turkey, contrary to the information in the holiday calendar library.</p>
+2. Retrieve today's date and the current year.
 
-<h2>License</h2>
-<p>This script is provided under the MIT License.</p>
+3. Initialize the Turkey calendar using `workalendar`.
 
-</body>
+4. Get the list of official holidays for the current year and format them as strings in the 'YYYY-MM-DD' format.
 
-</html>
+5. Iterate through each month of the year, calculating the number of working days for that month using the `count_working_days` function. Adjustments are made for January to account for the fact that the 2nd of January is not observed as a holiday in Turkey.
+
+6. Print the number of working days for each month and the total number of working days for the current year.
+
+## Output
+
+The script will output the number of working days for each month and the total working days for the current year. This information can be useful for various business and scheduling purposes.
+
+## Note
+
+- This script assumes that weekends are Saturdays and Sundays. You can modify the `count_working_days` function to consider different weekend days if needed.
+
+- Ensure that the official holidays in Turkey are correctly defined in the `workalendar` library for accurate results.
+
+- The script is tailored for the year in which it is executed. If you want to calculate working days for a different year, simply update the `ThisYear` variable with the desired year.
+
+Feel free to adapt and customize this script for your specific needs or integrate it into other projects where you need to calculate working days.

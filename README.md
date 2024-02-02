@@ -12,7 +12,7 @@ pip install poetry
 
 ## Usage
 
-1. Import the required libraries and define the `count_working_days` function, which calculates the working days between two dates, excluding holidays and weekends.
+1. Import the required libraries with `poetry install` and define the `count_working_days` function, which calculates the working days between two dates, excluding holidays and weekends.
 
 2. Retrieve today's date and the current year.
 
@@ -22,7 +22,7 @@ pip install poetry
 
 5. Iterate through each month of the year, calculating the number of working days for that month using the `count_working_days` function. Adjustments are made for January to account for the fact that the 2nd of January is not observed as a holiday in Turkey.
 
-6. Print the number of working days for each month and the total number of working days for the current year.
+6. Run the code with `poetry run python3 working_days_tr.py`. Print the number of working days for each month and the total number of working days for the current year.
 
 ## Output
 

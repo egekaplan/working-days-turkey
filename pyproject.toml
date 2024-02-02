@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "Working Days TR"
+name = "working-days-turkey"
 version = "0.1.0"
 description = "Working days TR"
 authors = ["Ege Kaplan <egekaplann@gmail.com>"]

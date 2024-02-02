@@ -1,7 +1,7 @@
 import datetime
 from workalendar.europe import Turkey
 import pytest
-from working_days_tr import count_working_days
+from src.working_days_project.working_days_tr import count_working_days
 from loguru import logger  # Import Loguru's logger
 
 @pytest.fixture

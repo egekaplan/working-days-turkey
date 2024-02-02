@@ -5,3 +5,4 @@ PyMeeus==0.5.12
 python-dateutil==2.8.2
 six==1.16.0
 workalendar==17.0.0
+pytest==8.0.0

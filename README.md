@@ -4,10 +4,10 @@ This Python script calculates the number of working days (business days) in each
 
 ## Prerequisites
 
-Before running the script, make sure you have the `workalendar` library installed. You can install it using pip:
+Before running the script, make sure you have `poetry` installed. You can install it using pip:
 
 ```bash
-pip install workalendar
+pip install poetry
 ```
 
 ## Usage

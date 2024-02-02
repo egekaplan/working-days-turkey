@@ -2,7 +2,7 @@
 name = "Working Days TR"
 version = "0.1.0"
 description = "Working days TR"
-authors = ["Ege Kaplan egekaplann@gmail.com"]
+authors = ["Ege Kaplan <egekaplann@gmail.com>"]
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

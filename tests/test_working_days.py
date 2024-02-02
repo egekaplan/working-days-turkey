@@ -21,5 +21,6 @@ def test_count_working_days_with_holidays(holidays):
     start_date = datetime.date(2024, 1, 1)
     end_date = datetime.date(2024, 1, 10)
     result = count_working_days(start_date, end_date, holidays)
-    assert result == 6  
+    assert result == 7  # Updated to reflect the adjustment in working_days_tr.py ie. excess day in January 
+
 

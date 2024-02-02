@@ -37,6 +37,7 @@ for month in range(1, 13):
         # Subtract one holiday from January
         working_days_in_month += 1
         subtracted_holiday = True
+
     
     total_working_days += working_days_in_month
     

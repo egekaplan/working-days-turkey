@@ -19,3 +19,5 @@ six = "^1.16.0"
 workalendar = "^17.0.0"
 pytest = "^8.0.0"
 loguru = "^0.7.2"
+flake8 = "^4.0.0"
+

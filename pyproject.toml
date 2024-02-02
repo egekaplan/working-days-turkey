@@ -21,3 +21,5 @@ pytest = "^8.0.0"
 loguru = "^0.7.2"
 flake8 = "^4.0.0"
 
+[tool.poetry.scripts]
+working-days-tr = "working_days_project.working_days_tr:main"

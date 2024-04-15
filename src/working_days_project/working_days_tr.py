@@ -2,7 +2,8 @@ import datetime
 from workalendar.europe import Turkey
 
 
-def count_working_days(start_date, end_date, formatted_holidays):
+def count_working_days(start_date, end_date, formatted_holidays) -> int:
+    """returns working days"""
     current_date = start_date
     working_days = 0
 
@@ -14,7 +15,6 @@ def count_working_days(start_date, end_date, formatted_holidays):
         ):
             working_days += 1
         current_date += datetime.timedelta(days=1)
-
     return working_days
 
 
